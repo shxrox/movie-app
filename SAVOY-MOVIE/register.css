@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(31, 31, 41);
+    background-image: url('images/home7.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(31, 31, 41, 0.7);
+    z-index: -1;
+}
+
+.team {
+    margin-top: 20px;
+    border: 1px solid rgb(165, 43, 84);
+    padding: 100px 100px;
+}
+
+.team:hover {
+    box-shadow: 0 0 100px rgb(165, 43, 84);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 200px;
+}
+
+.section-title h2 {
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: rgba(165, 43, 84, 0.7);
+    text-decoration-thickness: 3px;
+    text-shadow: 0 0 5px rgba(165, 43, 84, 0.7);
+    color: white;
+}
+
+.login-form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+.form-group {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.form-group input {
+    width: 500px;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form-group ::placeholder {
+    color: rgb(165, 43, 84);
+    opacity: 1;
+}
+
+.form-group :hover {
+    box-shadow: 0 0 50px rgb(165, 43, 84);
+}
+
+.form-actions {
+    text-align: center;
+}
+
+.btn-reg{
+    background-color: #fff;
+    border: 1px solid;
+    margin-left: 740px;
+    padding: 0;
+    width: 7.2em;
+    height: 2.4em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+    text-decoration: none; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.btn-reg{
+    border-color: #bc2a8d;
+}
+.btn-reg:hover {
+    background-color: #bc2a8d;
+    color: white;
+}

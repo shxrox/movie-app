@@ -1,0 +1,45 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(31, 31, 41);
+    color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #b42589;
+    color: #000;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+tr:nth-child(even) td {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    table {
+        width: 80%;
+    }
+}

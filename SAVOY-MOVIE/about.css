@@ -1,0 +1,245 @@
+
+
+.about-us h1{
+   
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: rgba(165, 43, 84, 0.7); 
+    text-decoration-thickness: 3px; 
+    text-shadow: 0 0 5px rgba(165, 43, 84, 0.7); 
+    color: #ffffff;
+
+}
+h2 {
+    color: #ffffff;
+    padding-left: 100px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+h2:hover{
+   color: rgba(165, 43, 84, 0.7); 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+    font-size: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+
+    color: white;
+    text-align: center;
+    
+}
+
+ul li {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+ul li strong{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: rgba(165, 43, 84, 0.7);
+}
+
+
+.team {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgb(31, 31, 41);
+
+}
+
+.team-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background-color: rgb(31, 31, 41);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px  rgba(165, 43, 84, 0.7);
+    max-width: 300px;
+    text-align: left;
+}
+
+.team-member h3 {
+    margin-top: 0;
+    color: white;
+}
+
+.team-member p {
+    margin-bottom: 0;
+}
+
+.team h2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: rgba(165, 43, 84, 0.7); 
+    text-decoration-thickness: 3px; 
+    text-shadow: 0 0 5px rgba(165, 43, 84, 0.7); 
+    color: #ffffff;
+}
+
+.testimonials {
+    padding: 50px 20px;
+    background-color: rgb(31, 31, 41);
+
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+    background-color: rgb(31, 31, 41);
+    border-left: 5px solid  rgba(165, 43, 84, 0.7); 
+    margin: 20px auto;
+    padding: 20px;
+    font-style: italic;
+    position: relative;
+    width: 80%;
+    box-shadow: 0 4px 20px  rgba(165, 43, 84, 0.7); 
+    display: inline-block;
+    text-align: left;
+}
+
+.testimonials blockquote:before {
+    content: "“";
+    font-size: 4em;
+    color:  rgba(165, 43, 84, 0.7); 
+    position: absolute;
+    left: 10px;
+    top: 0;
+}
+
+.testimonials blockquote:after {
+    content: "”";
+    font-size: 4em;
+    color:  rgba(165, 43, 84, 0.7); 
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+.testimonials blockquote p {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.testimonials blockquote footer {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+    text-align: right;
+    display: block;
+}
+.map {
+    text-align: center; 
+    padding: 50px 20px; 
+    background-color: rgb(31, 31, 41);
+}
+
+.map h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.map iframe {
+    display: block; 
+    margin: 0 auto; 
+    max-width: 100%; 
+}
+
+
+.join-us p {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: rgb(31, 31, 41);
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.values-h2 h2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-color: rgba(165, 43, 84, 0.7); 
+    text-decoration-thickness: 3px; 
+    text-shadow: 0 0 5px rgba(165, 43, 84, 0.7); 
+    color: #ffffff;
+     
+}
+
+#heading-two h2{
+    text-align: center;
+}
+
+#Contact-us{
+    background-color: #fff;
+    border: 1px solid;
+    width: 7.2em;
+    height: 2.4em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+    text-decoration: none; /* Remove underline */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 670px;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+#Contact-us{
+    border-color: #bc2a8d;
+}
+
+#Contact-us:hover {
+    background-color: #bc2a8d;
+    color: white;
+}

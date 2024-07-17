@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+#footer {
+    margin-top: auto;
+}
+
+.container {
+    color: white;
+    text-align: center;
+    background-color: rgb(31, 31, 41);
+
+    padding: 10px 0;
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container a:hover{
+    color: rgb(160, 31, 80);
+    text-decoration: none;
+    list-style: none;
+}
+.conact a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.nav-footer a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.container .footer-detailes .conact{
+    float: left;
+    text-align: start;
+    margin-left: 20px;
+
+}
+
+.container .footer-detailes .nav-footer{
+    margin-top: 20px;
+    float: none;
+    text-align: end;
+    margin-right: 20px;
+}
+

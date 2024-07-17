@@ -1,0 +1,119 @@
+
+.container-movies {
+    
+    margin-top: 220px;
+    padding-left: 40px;
+    background-color: rgb(31, 31, 41);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-lg-6 {
+    padding: 0 15px;
+    box-sizing: border-box;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+
+#btn-add {
+    background-color: #fff;
+    border: 1px solid #bc2a8d;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+    color: black;
+  }
+  
+  #btn-add:hover {
+    background-color: #bc2a8d;
+    color: white;
+  }
+.btn-info {
+    background-color: #17a2b8;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.table th {
+    background-color: rgb(165, 43, 84);
+     color: white;
+}
+.table td:hover{
+    background-color: #474246;
+    color: white;
+   
+}
+
+img {
+    border-radius: 4px;
+}
+
+.form-group{
+    color: white;
+}
+
+#select-file{
+    background-color: #f1f1f1;
+}

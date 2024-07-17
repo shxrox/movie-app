@@ -1,0 +1,84 @@
+
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #1f1f29;
+}
+
+
+.screen{
+    height: auto;
+    width: 500px;
+    text-align: center;
+    margin-left: 220px;
+}
+
+.section-title h2 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 600px;
+    width: 200px;
+}
+
+.btn-primary {
+    background-color: #bc2a8d;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+   margin-left: 650px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #892140;
+}
+
+/* Ticket Booking Section */
+#team {
+    padding: 60px 0;
+}
+
+.ticket-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.ticket-form h2 {
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.ticket-form .form-group {
+    margin-bottom: 20px;
+}
+
+.ticket-form input[type="text"],
+.ticket-form input[type="date"] {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.ticket-form .btn-primary {
+    width: 100%;
+}

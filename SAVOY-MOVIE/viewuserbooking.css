@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(31, 31, 41);
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgb(31, 35, 41);
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #3d2c3c;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #2b2f38;
+}
+
+.table tr:hover {
+    background-color: #3e4451;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .table th, .table td {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 8px 12px;
+    }
+}

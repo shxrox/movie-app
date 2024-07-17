@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(31, 31, 41);
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Table Styles */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: rgb(31, 35, 41);
+}
+
+.table th, .table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #222831;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #2b2f38;
+}
+
+.table tr:hover {
+    background-color: #3e4451;
+}
+
+/* User Icon Styles */
+.table th:first-child, .table td:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.table th:first-child img, .table td:first-child img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#profile-img{
+    height: auto;
+    width: 220px;
+    padding-bottom: 50px;
+
+}
+
+
+#btn-logout {
+    padding-top: 10px;
+     margin-left: 500px;
+     margin-right: 500px;
+    padding-bottom: 10px;
+}
+
+#btn-logout{
+    border-color: #d31717;
+    text-align: center;
+}
+
+#btn-logout:hover{
+    background-color: hsla(0, 75%, 50%, 0.253);
+    color: white;
+}

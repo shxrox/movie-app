@@ -1,0 +1,125 @@
+
+.container-viewallbooking{
+
+    width: 90%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(31, 31, 41);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-lg-3, .col-lg-12 {
+    padding: 0 15px;
+    box-sizing: border-box;
+    margin-top: 100px;
+}
+
+.col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-lg-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.btn-s {
+    background-color: #fff;
+    border: 1px solid #bc2a8d;
+    padding: 5px;
+    position: relative;
+    width: 7.2em;
+    height: 2em;
+    transition: 0.5s;
+    font-size: 17px;
+    border-radius: 0.4em;
+  }
+  
+  .btn-s:hover {
+    background-color: #bc2a8d;
+    color: white;
+  }
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #24ad46;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+.btn:hover{
+    color: white;
+    background-color: green;
+}
+.btn-warning {
+    background-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #df091e;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+}
+
+.table th, .table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #000;
+
+}
+
+.table th {
+    background-color: rgb(165, 43, 84);
+    color: #fff;
+}
+.table td:hover{
+    background-color: #474246;
+    color: white;
+   
+}
